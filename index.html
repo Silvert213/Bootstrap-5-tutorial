@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+
+<!-- Part 3-->
+  <!--Add a nav bar to the top of page-->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Different types of Solar Eclipse</a>
+  </div>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>  
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Link</a></li>
+            <li><a class="dropdown-item" href="#">Another link</a></li>
+            <li><a class="dropdown-item" href="#">A third link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+</nav>
+
+  <!--Part 1-->
+<div class="container-fluid mt-3">
+    <h1> side - by - side</h1>
+    <p>yapyapyapyapyapasdjhhvfdssjhbfsd</p>
+    <p>The columns will automatically stack on top of each other</p>
+    <div class="row">
+      <div class="col-sm-3 p-3 bg-primary text-white">TSE 1</div>
+      <div class="col-sm-3 p-3 bg-dark text-white">ASE 2</div>
+      <div class="col-sm-3 p-3 bg-primary text-white">PSE 3</div>
+      <div class="col-sm-3 p-3 bg-dark text-white">HSE 4</div>
+    </div>
+  </div>
+
+
+
+<!--Part 2 -->
+<!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-560w,f_auto,q_auto:best/newscms/2015_12/934006/150316-space-solar-eclipse-photography-safety-8.jpg" 
+      alt="Total Solar Eclipse" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://www.calacademy.org/sites/default/files/sciencetoday/wp-content/uploads/2012/05/SolarEcl-ann.jpg" 
+      alt="Annular Solar Eclipse" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://news.az/photos/2025/03/1742380738.jpg" 
+      alt="Partial Solar Eclipse" class="d-block" style="width:100%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.interestingengineering.com/2023/04/10/image/jpeg/Q1ZmauUJ1dksjPWD9RAOVQpVAy7It4kYRbOUbbDV.jpg" 
+      alt="Hybrid Solar Eclipse" class="d-block" style="width:100%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+  
+  <!-- Part 4-->
+  <!-- 2 cards under  image carousel, side-by-side, collapse once the screen becomes "small."-->
+  <div class="row">
+    <div class=".col-sm-6 p-6 d-flex">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Card 1</h4>
+        <p class="card-text">Some  text. Some more text.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Card 2</h4>
+        <p class="card-text">Some  text. Some more text.</p>
+        <a href="#" class="card-link">Card link</a>
+        <a href="#" class="card-link">Another link</a>
+        </div>
+      </div>
+    </div>
+
+
+
+</body>
+
+</html>
